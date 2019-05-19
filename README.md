@@ -1,2 +1,2 @@
 # TinkoffNews
-<img src="https://user-images.githubusercontent.com/26670293/57987047-008d2580-7a85-11e9-93e4-11571052bc75.jpg" width="307px" height="680px">   <img src="https://user-images.githubusercontent.com/26670293/57987054-17337c80-7a85-11e9-89e6-6b4ccaca720b.jpg" width="307px" height="680px">  
+![img1](https://user-images.githubusercontent.com/26670293/57987213-0f74d780-7a87-11e9-996e-d1915cc637dd.jpg)  ![img2](https://user-images.githubusercontent.com/26670293/57987215-10a60480-7a87-11e9-8fa5-e8e2aa0767dc.jpg)
