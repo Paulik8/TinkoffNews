@@ -1,12 +1,12 @@
 package ru.paul.tinkoffnews.models;
 
+import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
-
-public class PublicationDate implements Serializable {
+public class LastModificationDate {
 
     @SerializedName("milliseconds")
+    @Expose
     private Long milliseconds;
 
     public Long getMilliseconds() {
@@ -16,4 +16,5 @@ public class PublicationDate implements Serializable {
     public void setMilliseconds(Long milliseconds) {
         this.milliseconds = milliseconds;
     }
+
 }

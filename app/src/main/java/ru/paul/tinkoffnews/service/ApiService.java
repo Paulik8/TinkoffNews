@@ -9,12 +9,15 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 import ru.paul.tinkoffnews.Constants;
 import ru.paul.tinkoffnews.models.ResponseAPI;
+import ru.paul.tinkoffnews.models.ResponseDetail;
 
 public interface ApiService {
 
     @GET("news")
     Single<ResponseAPI> getPosts(@Query("first") Integer first, @Query("last") Integer last);
 
+    @GET("news_content")
+    Single<ResponseDetail> getDetail(@Query("id") Integer id);
 
     Retrofit retrofit = new Retrofit.Builder()
             .baseUrl(Constants.BASE_URL)
